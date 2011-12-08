@@ -1,0 +1,19 @@
+* html #wrap {
+    background: none;
+    width: 940px
+}
+#nav li, .menu li, .menu li a {
+    display: inline
+}
+#nav li a {
+    display: inline-block
+}
+#content-wrap {
+    margin: 21px 0;
+    border-spacing: 0
+}
+#content-wrap .column, .left-column {
+    float: left;
+    display: block;
+    height: auto
+}
