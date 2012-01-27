@@ -484,9 +484,6 @@ h2 .date {
 	width: 17px;
 	float: right
 }
-.placeholder { color: #bbb !important }
-::-webkit-input-placeholder { color: #bbb !important }
-:-moz-placeholder { color: #bbb !important }
 
  @media only screen and (min-width: 601px) and (max-width: 1000px) {
  #content-wrap .column, .left-column {
