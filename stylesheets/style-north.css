@@ -423,6 +423,13 @@ h2 .date {
 .form_error, .form_field_error, .blog-errors {
 	color: #cc0000
 }
+.form_notice, .form_error {
+    font-size: 18px;
+    margin: 13px 0
+}
+.form_field_with_errors input, .form_field_with_errors textarea {
+    border: 1px solid #cc0000
+}
 #wrap .blog-errors {
 	margin: 0 0 20px 51px
 }
