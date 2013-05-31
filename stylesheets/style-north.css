@@ -324,6 +324,46 @@ h2 .date {
 	text-shadow: 0 1px 0 rgba(255, 255, 255, .45);
 	font-weight: bold
 }
+
+/* article tags */
+.article-tags { margin-top: 18px; font-size: 14px; min-height: 1em; }
+.edy-tag-input {
+    outline: none;
+}
+.article-tag-icon {
+    width: 16px;
+    height: 16px;
+    float: left;
+    background: url('../images/tag.png') no-repeat center center;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    margin-right: 7px;
+    margin-top: 3px;
+}
+.svg .article-tag-icon { background: url('../images/tag.svg') no-repeat center center; }
+.tagged-list-header {
+    padding: 12px 0 0 12px;
+    font-size: 24px;
+    color: #222222;
+    margin-bottom: 30px;
+}
+.header-tag-icon {
+    width: 24px;
+    height: 24px;
+    float: left;
+    background: url('../images/header-tag.png') no-repeat center center;
+    opacity: 0.5;
+    filter: alpha(opacity=50);
+    margin-top: 1px;
+    margin-right: 28px;
+}
+.svg .header-tag-icon { background: url('../images/header-tag.svg') no-repeat center center; }
+.tagged-list-header  a {border: none; text-decoration: none;}
+.tagged-list-header  a:hover { border-bottom: 1px solid #BEBEBE; }
+.article-tags .edy-taglist { margin-left: 25px; }
+
+
+
 #comment-form {
 	margin-bottom: 10px
 }
@@ -349,6 +389,7 @@ h2 .date {
 	background: url('../images/comment.png?1') no-repeat 4px 5px;
 	padding-left: 37px;
 	margin-bottom: 8px;
+    line-height: 1.3em;
 }
 .comment-author {
 	color: #2F2F2F
@@ -598,3 +639,5 @@ h2 {
  margin-bottom: 5px
 }
 }
+
+
