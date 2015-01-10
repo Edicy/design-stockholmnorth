@@ -340,7 +340,7 @@ h2 .date {
     margin-right: 7px;
     margin-top: 3px;
 }
-.svg .article-tag-icon { background: url('../images/tag.svg') no-repeat center center; }
+.svg .article-tag-icon { background: url('../assets/tag.svg') no-repeat center center; }
 .tagged-list-header {
     padding: 12px 0 0 12px;
     font-size: 24px;
@@ -357,7 +357,7 @@ h2 .date {
     margin-top: 1px;
     margin-right: 28px;
 }
-.svg .header-tag-icon { background: url('../images/header-tag.svg') no-repeat center center; }
+.svg .header-tag-icon { background: url('../assets/header-tag.svg') no-repeat center center; }
 .tagged-list-header  a {border: none; text-decoration: none;}
 .tagged-list-header  a:hover { border-bottom: 1px solid #BEBEBE; }
 .article-tags .edy-taglist { margin-left: 25px; }
