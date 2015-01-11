@@ -20,8 +20,8 @@
     <div class="center-column">
       <h2>{% editable article.title %} <span class="date">{{article.created_at | format_date:"long"}}</span></h2>
       <p><span class="author">{{article.author.name}}</span> / <a href="{% case article.comments_count %}{% when 0 %}{{article.url}}#comment-form{% else %}{{article.url}}#comments{% endcase %}">{% case article.comments_count %}{% when 0 %}{{"write_first_comment" | lc}}{% else %}{{"comments" | lc}} (<span class="edy-site-blog-comments-count">{{article.comments_count}}</span>){% endcase %}</a></p>
-      <div class="excerpt">{% editable article.excerpt %}</div>
-      {% editable article.body %}
+      <div class="excerpt" data-search-indexing-allowed="true">{% editable article.excerpt %}</div>
+      <div data-search-indexing-allowed="true">{% editable article.body %}</div>
       
       
       {% if editmode %}

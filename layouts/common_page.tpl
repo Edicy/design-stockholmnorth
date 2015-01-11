@@ -16,7 +16,7 @@
   </div>
   <!-- //header -->
   <div id="content-wrap" class="clear">
-    <div class="center-column">{% content %}</div>
+    <div class="center-column" data-search-indexing-allowed="true">{% content %}</div>
   </div>
   <!-- //content-wrap -->
   <div id="footer" class="clear">{% include "Footer" %}</div>
