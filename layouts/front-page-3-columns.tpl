@@ -15,9 +15,9 @@
   </div>
   <!-- //header -->
   <div id="content-wrap" class="clear">
-    <div class="column">{% content %}</div>
-    <div class="column blue">{% content name="blue-column" %}</div>
-    <div class="column last yellow">{% if site.latest_articles.size > 0 %}{% include "News" %}{% else %}{% content name="sidebar" %}{% endif %}</div>
+    <div class="column" data-search-indexing-allowed="true">{% content %}</div>
+    <div class="column blue" data-search-indexing-allowed="true">{% content name="blue-column" %}</div>
+    <div class="column last yellow"{% if site.latest_articles.size > 0 %}>{% include "News" %}</div>{% else %} data-search-indexing-allowed="true">{% content name="sidebar" %}</div>{% endif %}
   </div>
   <!-- //content-wrap -->
   <div id="footer" class="clear">{% include "Footer" %}</div>
